@@ -1,0 +1,7 @@
+# Ignore some stuff
+*.py[codt]
+**/cov_*
+__pycache__/
+htmlcov/
+.idea/
+.DS_Store
