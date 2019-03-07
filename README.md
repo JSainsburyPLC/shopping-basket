@@ -93,9 +93,9 @@ $ pytest basket
 ## Future Requirements
 - Output a 'till-receipt', i.e. above the subtotal, output a line for each item
   that includes the item name, the item units in parentheses, and price.
-- Distinguish active and inactive products 
-- Time limited promotions
-- Dockerize the application
-- Get Products and Promotions from a Redis data-store
-- Design a REST API so the app can be provided as a service
-- Implement a REST API so the app can be provided as a service
+- Distinguish active and inactive products.
+- Time limited promotions.
+- Dockerize the application.
+- Get Products and Promotions from a Redis data-store.
+- Design a REST API so the app can be provided as a service.
+- Implement a REST API so the app can be provided as a service.
