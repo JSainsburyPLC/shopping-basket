@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "title": "Apples 10% off",
+    "qualifying_product": "Apples",
+    "qualifying_qty": 1,
+    "discounted_product": "Apples",
+    "discount_percent": 10
+  },
+  {
+    "id": 2,
+    "title": "2 tins soup get you a half price loaf",
+    "qualifying_product": "Soup",
+    "qualifying_qty": 2,
+    "discounted_product": "Bread",
+    "discount_percent": 50
+  }
+]

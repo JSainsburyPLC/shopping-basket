@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Soup", "price": 65, "unit": "Tin"
+  },
+  {
+    "name": "Bread", "price": 80, "unit": "Loaf"
+  },
+  {
+    "name": "Milk", "price": 130, "unit": "Bottle"
+  },
+  {
+    "name": "Apples", "price": 100, "unit": "Bag"
+  }
+]
