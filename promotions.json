@@ -14,5 +14,13 @@
     "qualifying_qty": 2,
     "discounted_product": "Bread",
     "discount_percent": 50
+  },
+  {
+    "id": 3,
+    "title": "Soap 25% off",
+    "qualifying_product": "Soap",
+    "qualifying_qty": 1,
+    "discounted_product": "Soap",
+    "discount_percent": 20
   }
 ]
