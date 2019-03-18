@@ -5,7 +5,7 @@
     "qualifying_product": "Apples",
     "qualifying_qty": 1,
     "discounted_product": "Apples",
-    "discount_percent": 10
+    "discount_percent": 12
   },
   {
     "id": 2,
@@ -21,6 +21,6 @@
     "qualifying_product": "Soap",
     "qualifying_qty": 1,
     "discounted_product": "Soap",
-    "discount_percent": 20
+    "discount_percent": 25
   }
 ]
