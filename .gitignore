@@ -3,5 +3,6 @@
 **/cov_*
 __pycache__/
 htmlcov/
+.coverage
 .idea/
 .DS_Store
