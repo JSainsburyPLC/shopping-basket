@@ -22,6 +22,10 @@ as well as any observations you may have. Furthermore, at the bottom of this
 README is list of some possible future requirements that we might, if time
 permits, ask you to have a go at one or more of them.
 
+> NB: This activity is designed for candidates with a wide range of skills and
+> experiences. Don't worry if some of the proposed features seem outside of
+> your area of expertise, we certainly don't expect everyone to know everything.
+
 We are flexible about the structure of the technical section of the interview.
 You may want to bring some fixes, improvements or additions with you and use
 those as a starting point. Ideally we would like to pair with you during the
@@ -85,17 +89,25 @@ Total: £3.90
 ```
 
 ## Tests
-To run the tests:
+This application benefits from `pytest` tests. To run the tests:
 ```bash
 $ pytest basket
 ``` 
 
 ## Future Requirements
-- Output a 'till-receipt', i.e. above the subtotal, output a line for each item
-  that includes the item name, the item units in parentheses, and price.
-- Distinguish active and inactive products.
-- Time limited promotions.
-- Dockerize the application.
-- Get Products and Promotions from a Redis data-store.
+- Implement the ability to distinguish between active and inactive products. 
+- Implement an option to output a 'till-receipt'.
+- Implement the notion of a 'time limited' promotion.
+- The original developer implemented a simple logger. Update the application to
+  use the [Logbook](https://logbook.readthedocs.io/en/stable/) logging library.
+- Rather than load Products and Promotions from json files, implement a
+  solution that uses an external SQL or NoSQL database.
 - Design a REST API so the app can be provided as a service.
 - Implement a REST API so the app can be provided as a service.
+- Dockerize the implemented API.
+
+## Environment
+If you need to set up a working environment the following files can be used:
+
+- `requirements.txt` - Classic pip requirements file.
+- `environment.yml` - Conda environment definition file.
