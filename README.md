@@ -94,18 +94,6 @@ This application benefits from `pytest` tests. To run the tests:
 $ pytest basket
 ``` 
 
-## Future Requirements
-- Implement the ability to distinguish between active and inactive products. 
-- Implement an option to output a 'till-receipt'.
-- Implement the notion of a 'time limited' promotion.
-- The original developer implemented a simple logger. Update the application to
-  use the [Logbook](https://logbook.readthedocs.io/en/stable/) logging library.
-- Rather than load Products and Promotions from json files, implement a
-  solution that uses an external SQL or NoSQL database.
-- Design a REST API so the app can be provided as a service.
-- Implement a REST API so the app can be provided as a service.
-- Dockerize the implemented API.
-
 ## Environment
 If you need to set up a working environment the following files can be used:
 
