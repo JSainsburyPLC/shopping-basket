@@ -227,7 +227,7 @@ def test_load_products(products_json_file):
 def test_load_products_no_stock(empty_json_file):
     products = main.load_products(empty_json_file)
     assert products == {}
-    assert len(products) is 0
+    assert len(products) == 0
 
 
 def test_load_prod_bad_item(faulty_products_json_file, capsys):
@@ -236,7 +236,7 @@ def test_load_prod_bad_item(faulty_products_json_file, capsys):
     stdout, _ = capsys.readouterr()
     assert 'Failed to load a product with data' in stdout
     assert '(invalid literal for int() with base 10: \'100.0\'' in stdout
-    assert len(products) is 0
+    assert len(products) == 0
 
 
 def test_load_promo(promo_json_file):
@@ -255,7 +255,7 @@ def test_load_offers_bad_item(faulty_promo_json_file, capsys):
     stdout, _ = capsys.readouterr()
     assert 'Failed to load offer with data' in stdout
     assert '(Unacceptable value for qualifying_qty)' in stdout
-    assert len(offers) is 0
+    assert len(offers) == 0
 
 
 def test_main(capsys):
